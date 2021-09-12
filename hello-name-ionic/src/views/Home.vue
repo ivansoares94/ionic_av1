@@ -18,7 +18,7 @@
 
         <ion-row>
           <ion-col>
-            <ion-button v-on:click="numeroGerado = randomNumber()" expand="block" > Gerar número </ion-button>  
+            <ion-button v-on:click="numeroGerado = randomNumber(); contador = 0;" expand="block" > Gerar número </ion-button>  
           </ion-col>
         </ion-row>
 
